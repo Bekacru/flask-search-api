@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/api', methods=['GET'])
 def home():
     # Display all the todos in the database
-    return < h1 > Hey there < /h1 >
+    return "hello, world"
 
 
 if __name__ == '__main__':
