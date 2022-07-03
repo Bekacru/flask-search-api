@@ -3,9 +3,8 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/api', methods=['GET'])
+@app.route('/', methods=['GET'])
 def home():
-    # Display all the todos in the database
     return "hello, world"
 
 
